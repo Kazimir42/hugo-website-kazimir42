@@ -1,0 +1,31 @@
+baseURL = 'https://kazimir42.com/'
+languageCode = 'en-us'
+title = 'Kazimir42'
+theme = 'typo'
+
+[params]
+
+homeIntro = true
+homeIntroTitle = 'Hi!'
+homeIntroContent = """
+I am a French full-stack web developer with a passion for cryptocurrency, currently serving as the lead developer at a software development company based in Luxembourg. My professional interests extend to software development, IT infrastructure, and blockchain technologies. Outside of work, I am also interested in entrepreneurship, investment, and manga.
+
+For crypto-related inquiries or transactions, feel free to use my Ethereum address at **kazimir42.eth**.
+
+You can contact me via email at me@kazimir.42.
+"""
+
+# Social icons
+
+[[params.social]]
+name = "github"
+url = "https://github.com/Kazimir42"
+
+[[params.social]]
+name = "x"
+url = "https://twitter.com/Kazimir42_"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
